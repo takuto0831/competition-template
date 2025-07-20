@@ -30,3 +30,19 @@
     │   └── preprocess2
     └── raw
 ```
+
+# uv 
+
+- 環境への追加
+
+```
+uv venv
+uv pip install ipykernel
+uv pip install numpy
+```
+
+- package共有用
+
+```
+uv pip freeze | uv pip compile - -o requirements.txt
+```
