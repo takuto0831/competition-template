@@ -1,4 +1,8 @@
-# flow
+# Overview
+
+- [目指せメダリスト！Kaggle実験管理術 着実にコンペで成果を出すためのノウハウ](https://www.shoeisha.co.jp/book/detail/9784798187457) を参考にレポジトリを組む
+
+# Flow
 
 1. preprocessX のフォルダーでデータの前処理をする
 2. source/fixed/preprocessX 以下に 前処理済みのデータを配置する
