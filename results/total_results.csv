@@ -1,0 +1,5 @@
+実験ID, CV, LB, model, 派生元, メモ
+exp001, 0.85, 0.90, model_v1, original, 初期モデル
+exp002, 0.88, 0.92, model_v2, exp001, 改良版
+exp003, 0.90, 0.93, model_v3, exp002, 最終モデル
+exp004, 0.87, 0.91, model_v4, exp003, バグ修正
