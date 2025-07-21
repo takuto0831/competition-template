@@ -8,7 +8,7 @@
 2. source/fixed/preprocessX 以下に 前処理済みのデータを配置する
 3. expXXX.ipynb で source/fixed/preprocessX 以下のデータを参照してmodelを実行する
 4. results/expXXX に expXXX.ipynbでの実験結果を保存する
-5. results/total_results.csv に結果をまとめておく
+5. results/total_results.csv に結果をまとめておく or 実験結果は Notionで管理する
 
 ```
 ├── experiments
