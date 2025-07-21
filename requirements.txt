@@ -36,12 +36,15 @@ ipython-pygments-lexers==1.1.1
     # via ipython
 jedi==0.19.2
     # via ipython
+joblib==1.5.1
+    # via scikit-learn
 jupyter-client==8.6.3
     # via ipykernel
 jupyter-core==5.8.1
     # via
     #   ipykernel
     #   jupyter-client
+lightgbm==4.6.0
 matplotlib-inline==0.1.7
     # via
     #   ipykernel
@@ -49,10 +52,16 @@ matplotlib-inline==0.1.7
 nest-asyncio==1.6.0
     # via ipykernel
 numpy==2.3.1
+    # via
+    #   lightgbm
+    #   pandas
+    #   scikit-learn
+    #   scipy
 packaging==25.0
     # via
     #   ipykernel
     #   wandb
+pandas==2.3.1
 parso==0.8.4
     # via jedi
 pexpect==4.9.0
@@ -80,9 +89,13 @@ pygments==2.19.2
     #   ipython
     #   ipython-pygments-lexers
 python-dateutil==2.9.0.post0
-    # via jupyter-client
+    # via
+    #   jupyter-client
+    #   pandas
 python-dotenv==1.1.1
     # via dotenv
+pytz==2025.2
+    # via pandas
 pyyaml==6.0.2
     # via wandb
 pyzmq==27.0.0
@@ -91,6 +104,11 @@ pyzmq==27.0.0
     #   jupyter-client
 requests==2.32.4
     # via wandb
+scikit-learn==1.7.1
+scipy==1.16.0
+    # via
+    #   lightgbm
+    #   scikit-learn
 sentry-sdk==2.33.0
     # via wandb
 six==1.17.0
@@ -99,6 +117,8 @@ smmap==5.0.2
     # via gitdb
 stack-data==0.6.3
     # via ipython
+threadpoolctl==3.6.0
+    # via scikit-learn
 tornado==6.5.1
     # via
     #   ipykernel
@@ -120,6 +140,8 @@ typing-extensions==4.14.1
     #   wandb
 typing-inspection==0.4.1
     # via pydantic
+tzdata==2025.2
+    # via pandas
 urllib3==2.5.0
     # via
     #   requests

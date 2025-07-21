@@ -10,20 +10,25 @@
 4. results/expXXX に expXXX.ipynbでの実験結果を保存する
 5. results/total_results.csv に結果をまとめておく
 
-
 ```
 ├── experiments
-│   ├── exp001.ipynb
-│   └── exp002.ipynb
+│   ├── exp001
+│   │   ├── config.yaml
+│   │   └── exp001.ipynb
+│   └── exp002
+│       ├── config.yaml
+│       └── exp002.ipynb
 ├── preprocess
 │   ├── preprocess1
 │   └── preprocess2
 ├── README.md
+├── requirements.txt
 ├── results
 │   ├── exp001
 │   │   ├── model.pkl
 │   │   └── results.csv
-│   └── exp002
+│   ├── exp002
+│   └── total_results.csv
 └── source
     ├── fixed
     │   ├── preprocess1
